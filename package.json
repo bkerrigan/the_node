@@ -1,0 +1,25 @@
+{
+  "name": "TheNode",
+  "version": "1.0.0",
+  "description": "A NodeJS RESTful API for user account creation and matching.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:bkerrigan/the_node.git"
+  },
+  "author": "Bryan Kerrigan <bryankerrigan@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.13.3",
+    "express": "^4.13.3",
+    "mongodb": "^2.1.6",
+    "mongoose": "^4.5.3",
+    "passport": "^0.3.2",
+    "passport-local": "^1.0.0",
+    "passport-local-mongoose": "^4.0.0"
+  }
+}
